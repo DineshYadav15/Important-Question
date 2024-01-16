@@ -7,11 +7,17 @@ class Factorial
 		System.out.println("enter the number");
 		int num=s1.nextInt();
 		int fact=1;
-		for(int i=num;i>0;i--)
-		{
+		if(num<0)
+		
+			System.out.println("out of bound");
+		else{
+		for(int i=1;i<=num;i++)
+		
 			fact=fact*i;
 			System.out.println("Factorial number is = " + fact);
+		
 		}
+		
 	}
 }
 	
