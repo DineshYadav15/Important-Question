@@ -42,7 +42,10 @@ class OppsExample2
 		System.out.println("Multiplay    = " + multi);
 		System.out.println("Divsion      = " + add);
 	}
-
+}
+class main
+{
+	
 	public static void main(String args[])
 	{
 		OppsExample2 s1=new OppsExample2(23,3);
