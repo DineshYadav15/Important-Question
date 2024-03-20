@@ -15,6 +15,7 @@ class Linkedlist
 		System.out.println(list);
 		list.addLast(700);
 		System.out.println(list);
+		
 		Collections.sort(list);
 		System.out.println(list);
 		Iterator itr=list.iterator();
